@@ -13,7 +13,8 @@ smel-www:
     - smel-db
   volumes:
     - "./smel-www:/var/www"
-  command: tail -f /dev/null #TEMP
+  ports:
+    - "8888:8888"
 
 smel-proxy:
   image: annixa/docker-nginx-letsencrypt-proxy
