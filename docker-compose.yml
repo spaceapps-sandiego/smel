@@ -26,6 +26,6 @@ smel-proxy:
     - LE_EMAIL=spaceapps.sandiego@gmail.com
     - LE_DOMAIN=smel.final-frontier.space
     - PROXY_DEST=http://smel-www/
-    # - SLACK_NOTIFICATIONS_INFRA_URL=https://hooks.slack.com/services/???????? # Be sure to fill this in using your URL for the slack webhook integration
+    - SLACK_NOTIFICATIONS_INFRA_URL=https://hooks.slack.com/services/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 # Be sure to fill this in using your URL for the slack webhook integration
   volumes:
     - "/etc/letsencrypt"
