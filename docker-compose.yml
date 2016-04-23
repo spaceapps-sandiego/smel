@@ -20,6 +20,8 @@ smel-www:
 smel-proxy:
   image: annixa/docker-nginx-letsencrypt-proxy
   container_name: smel-proxy
+  link:
+    - smel-www
   ports:
     - 80:80
     - 443:443
