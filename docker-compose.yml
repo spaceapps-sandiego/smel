@@ -15,6 +15,7 @@ smel-www:
     - "./smel-www:/var/www"
   ports:
     - "8888:8888"
+  env_file: smel.env
 
 smel-proxy:
   image: annixa/docker-nginx-letsencrypt-proxy
