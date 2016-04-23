@@ -4,7 +4,7 @@
  */
 
 import ReactDOM from 'react-dom';
-import routes from './routes.js';
-import './styles/main.less';
+import routes from './routes';
+import './styles';
 
 ReactDOM.render(routes, document.getElementById('main'));

@@ -1,7 +1,18 @@
 var path = require('path');
 
+var NODE_PATH = process.env.NODE_PATH || path.resolve(__dirname, './node_modules');
+
 module.exports = {  
+    context: NODE_PATH,
     entry: path.resolve(__dirname, './src/main.js'),
+    resolve: {
+        root: [path.resolve(__dirname, './src'), NODE_PATH]
+    },
+    resolveLoader: {
+        modulesDirectories: [
+            NODE_PATH
+        ]
+    },
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
@@ -19,8 +30,7 @@ module.exports = {
             },
             // styles
             {
-                test: /src\/styles\/.+\.less$/,
-                exclude: /node_modules/,
+                test: /\.less$/,
                 loader: 'style!css!less'
             },
             // font files
