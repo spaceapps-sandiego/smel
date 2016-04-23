@@ -5,7 +5,7 @@ The goal of SMEL is to collect information from Social Media and correlate it to
 ## Running the client
 Run the following commands to install the node modules and run the webpack dev server to compile the React client files and watch for changes.
 ```
-cd client
+cd smel-www/client
 npm install
 npm run start-dev
 ```
