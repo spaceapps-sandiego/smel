@@ -26,7 +26,7 @@ module.exports = {
             {
                 test: /src\/.+\.js$/,
                 exclude: /node_modules/,
-                loaders: ['babel?presets[]=react,presets[]=react-hmre,presets[]=es2015', 'eslint-loader']
+                loaders: ['babel?presets[]=react,presets[]=es2015', 'eslint-loader']
             },
             // styles
             {
