@@ -1,0 +1,1512 @@
+*********************
+
+TWEET-GEO= With my house in shambles from the flood I woke up from a nap to find a Grand care package at my front door from @thewaterschurch THANK YOU! 
+LOCATION= Houston Tx 
+GEO= true 
+PLACE= { id: '1c69a67ad480e1b1',
+  url: 'https://api.twitter.com/1.1/geo/id/1c69a67ad480e1b1.json',
+  place_type: 'city',
+  name: 'Houston',
+  full_name: 'Houston, TX',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Listen to Dream Storm Hip Hop Instrumental By~Angela C.Trou #HipHop
+https://t.co/jBVveKFlui 
+LOCATION= Knoxville 
+GEO= true 
+PLACE= { id: '6565298bcadb82a1',
+  url: 'https://api.twitter.com/1.1/geo/id/6565298bcadb82a1.json',
+  place_type: 'city',
+  name: 'Knoxville',
+  full_name: 'Knoxville, TN',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 【地震情報】
+4月24日07時36分
+震源〜熊本県熊本地方 M3.5 10km
+震度〜不明
+https://t.co/JSRy9wwxd5 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '01cd8b8209498da4',
+  url: 'https://api.twitter.com/1.1/geo/id/01cd8b8209498da4.json',
+  place_type: 'admin',
+  name: '九州地方',
+  full_name: '宮崎 九州地方',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Thank you 'Ohana the lava song is now stuck in my head 
+LOCATION= Tampa Bay, Florida 
+GEO= true 
+PLACE= { id: '4ec01c9dbc693497',
+  url: 'https://api.twitter.com/1.1/geo/id/4ec01c9dbc693497.json',
+  place_type: 'admin',
+  name: 'Florida',
+  full_name: 'Florida, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Y tengo que leer textos que dicen que, prácticamente, Disney es un imperio del mal y lava cerebros. 
+LOCATION= Bariloche 
+GEO= true 
+PLACE= { id: '011abdad7dddec83',
+  url: 'https://api.twitter.com/1.1/geo/id/011abdad7dddec83.json',
+  place_type: 'city',
+  name: 'San Carlos de Bariloche',
+  full_name: 'San Carlos de Bariloche, Argentina',
+  country_code: 'AR',
+  country: 'Argentina',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= "I'm getting used to waking up next to you." 
+-Fire and the Flood by Vance Joy. 
+LOCATION= destiny islands  
+GEO= true 
+PLACE= { id: '3cd12646c811c87e',
+  url: 'https://api.twitter.com/1.1/geo/id/3cd12646c811c87e.json',
+  place_type: 'city',
+  name: 'Bismarck',
+  full_name: 'Bismarck, ND',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Makes you wonder what all the poor folks are eating tonight.   #Wildfire #NYStrip #RedWine 
+LOCATION= Hell   
+GEO= true 
+PLACE= { id: '1d9a5370a355ab0c',
+  url: 'https://api.twitter.com/1.1/geo/id/1d9a5370a355ab0c.json',
+  place_type: 'city',
+  name: 'Chicago',
+  full_name: 'Chicago, IL',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 気象: 熊本県熊本地方 震度3 熊本県 M3.5 10km N32.7/E130.7  https://t.co/kjr6YAjh5q / 地震情報 20160424 07:36 
+LOCATION= さくらVPS1G 
+GEO= true 
+PLACE= { id: '01cd8b8209498da4',
+  url: 'https://api.twitter.com/1.1/geo/id/01cd8b8209498da4.json',
+  place_type: 'admin',
+  name: '九州地方',
+  full_name: '宮崎 九州地方',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @_LucasMichael_ is that the earthquake disaster game? 
+LOCATION= Manchester, where else? 
+GEO= true 
+PLACE= { id: '315b740b108481f6',
+  url: 'https://api.twitter.com/1.1/geo/id/315b740b108481f6.json',
+  place_type: 'city',
+  name: 'Manchester',
+  full_name: 'Manchester, England',
+  country_code: 'GB',
+  country: 'United Kingdom',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Polémico video de Rafael Correa en el que 'regaña' a víctimas de terremoto en Ecuador https://t.co/EZz2ughOeM vía @elespectador 
+LOCATION= Quito - Ecuador 
+GEO= true 
+PLACE= { id: '0177bc687a9ac697',
+  url: 'https://api.twitter.com/1.1/geo/id/0177bc687a9ac697.json',
+  place_type: 'city',
+  name: 'Quito',
+  full_name: 'Quito, Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Sonhei que a terra tremia. Terremoto. Caos. 
+LOCATION= Acre 
+GEO= true 
+PLACE= { id: 'db5d081bba1feffe',
+  url: 'https://api.twitter.com/1.1/geo/id/db5d081bba1feffe.json',
+  place_type: 'city',
+  name: 'Rio Branco',
+  full_name: 'Rio Branco, Brazil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Mi mamá fue al baño, y se tiró un pedo que se escuchó en toda la casa! Con Juan nos reíamos y le decíamos "e que pasó? Terremoto?" 😂😂😂 
+LOCATION= En mi casa 
+GEO= true 
+PLACE= { id: '000ceddc32916a4c',
+  url: 'https://api.twitter.com/1.1/geo/id/000ceddc32916a4c.json',
+  place_type: 'city',
+  name: 'Lomas de Zamora',
+  full_name: 'Lomas de Zamora, Argentina',
+  country_code: 'AR',
+  country: 'Argentina',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @AngusBell1 YASSS WATP HAIL HAIL FUCK THE POPE 
+LOCATION= No Sleep Till Brooklyn 
+GEO= true 
+PLACE= { id: '708d1e68a7eb8170',
+  url: 'https://api.twitter.com/1.1/geo/id/708d1e68a7eb8170.json',
+  place_type: 'city',
+  name: 'Paisley',
+  full_name: 'Paisley, Scotland',
+  country_code: 'GB',
+  country: 'United Kingdom',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Storm clouds are circling around
+But I won't let that shit drag me down
+SO AI BISSINGUE AI BISSINGUE AI BISSINGUE IN NO RAAAY 
+LOCATION= Belo Horizonte 
+GEO= true 
+PLACE= { id: 'd9d978b087a92583',
+  url: 'https://api.twitter.com/1.1/geo/id/d9d978b087a92583.json',
+  place_type: 'city',
+  name: 'Belo Horizonte',
+  full_name: 'Belo Horizonte, Brazil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 【気象庁情報】24日　07時36分頃　熊本県熊本地方（N32.7/E130.7）にて　最大震度3（M3.5）の地震が発生。　震源の深さは10km。( https://t.co/SACgNBk1RU ) #saigai #jishin #earthquake 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '01cd8b8209498da4',
+  url: 'https://api.twitter.com/1.1/geo/id/01cd8b8209498da4.json',
+  place_type: 'admin',
+  name: '九州地方',
+  full_name: '宮崎 九州地方',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @Ben_WGEM @ChrisDuerr Head scratching. Missed tag at plate opened flood gates to Kvile 3 run rally.Picked up dribbler, appred to tag runner. 
+LOCATION= Quincy, IL 
+GEO= true 
+PLACE= { id: '7e403d6a5b07bc42',
+  url: 'https://api.twitter.com/1.1/geo/id/7e403d6a5b07bc42.json',
+  place_type: 'city',
+  name: 'Kirksville',
+  full_name: 'Kirksville, MO',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 【確定情報】24日7時36分頃に熊本県熊本地方で震度3(M3.5)の地震が発生。震源の深さは10km。 https://t.co/c4Fqw2p0qv #jishin #earthquake #eqjp 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '01cd8b8209498da4',
+  url: 'https://api.twitter.com/1.1/geo/id/01cd8b8209498da4.json',
+  place_type: 'admin',
+  name: '九州地方',
+  full_name: '宮崎 九州地方',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Magnitude 3.5 Intensity 3 earthquake 07:36 Apr-24 JST at Kumamoto-ken Kumamoto-chiho (32.7N/130.7E) https://t.co/YcvfOf5xS9 #earthquake 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '01cd8b8209498da4',
+  url: 'https://api.twitter.com/1.1/geo/id/01cd8b8209498da4.json',
+  place_type: 'admin',
+  name: 'Kyūshū',
+  full_name: 'Kyūshū, Miyazaki',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Ella usó mi cabeza como un revólver e incendio mi conciencia con sus demonios. 
+LOCATION= Rosario. 
+GEO= true 
+PLACE= { id: '0079bbc151fa56d2',
+  url: 'https://api.twitter.com/1.1/geo/id/0079bbc151fa56d2.json',
+  place_type: 'city',
+  name: 'Rosario',
+  full_name: 'Rosario, Argentina',
+  country_code: 'AR',
+  country: 'Argentina',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 3.3 earthquake occurred at 23 Apr 2016 22:32:43 UTC, 26 km (16 mi) WSW of Perry, Oklahoma. https://t.co/1jrIA1YiNK 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Les recomiendo esta detallada crónica de como trabajó la redacción de El @ObservadorUY tras el tornado de Dolores https://t.co/OkjzCgo3kV 
+LOCATION= Buenos Aires 
+GEO= true 
+PLACE= { id: '018f1cde6bad9747',
+  url: 'https://api.twitter.com/1.1/geo/id/018f1cde6bad9747.json',
+  place_type: 'city',
+  name: 'Ciudad Autónoma de Buenos Aires',
+  full_name: 'Ciudad Autónoma de Buenos Aires, Argentina',
+  country_code: 'AR',
+  country: 'Argentina',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Aquela ducha que lava a alma! #ilhagrande #cachoeiradafeiticeira @ Cachoeira da Feiticeira- Ilha… https://t.co/QyiS5dA1QG 
+LOCATION= São Paulo 
+GEO= true 
+PLACE= { id: '9c8b282f46f0ca60',
+  url: 'https://api.twitter.com/1.1/geo/id/9c8b282f46f0ca60.json',
+  place_type: 'city',
+  name: 'Angra dos Reis',
+  full_name: 'Angra dos Reis, Brasil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Encontramos de casualidad la película del terremoto de Chile  ctm que angustia 
+LOCATION= Chillán, Chile 
+GEO= true 
+PLACE= { id: '010a74892213c898',
+  url: 'https://api.twitter.com/1.1/geo/id/010a74892213c898.json',
+  place_type: 'city',
+  name: 'Chillán',
+  full_name: 'Chillán, Chile',
+  country_code: 'CL',
+  country: 'Chile',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Haven't made it to issue to of this series but loved the 1st.  Good review and I can't wait to read for myself! https://t.co/n2oId1CkP5 
+LOCATION= Farmington, Missouri 
+GEO= true 
+PLACE= { id: '94d9e8f4ac8454bf',
+  url: 'https://api.twitter.com/1.1/geo/id/94d9e8f4ac8454bf.json',
+  place_type: 'city',
+  name: 'Farmington',
+  full_name: 'Farmington, MO',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= USGS reports a M3.3 #earthquake 26km WSW of Perry, Oklahoma on 4/23/16 @ 22:32:42 UTC https://t.co/zzv3UeepCo #quake 
+LOCATION= Earth 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 【mb3.3】OKLAHOMA 4km Apr 23, 2016 22:32:42 UTC (G)https://t.co/M2zEnLAJrq (EMSC)https://t.co/hXev6c7ITG 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 【mb3.3】OKLAHOMA 4km 23/04/2016 22:32:42 UTC #Sismo #Terremoto
+(G)https://t.co/bcbysETc3F (EMSC)https://t.co/vmtwNHLS9T 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Holy shit pineapple and Dr Pepper is making a volcano in my gut right now. 😞 #whenitrytoeatfruit 
+LOCATION= Idaho Falls, ID 
+GEO= true 
+PLACE= { id: 'd15336e5b45c79bb',
+  url: 'https://api.twitter.com/1.1/geo/id/d15336e5b45c79bb.json',
+  place_type: 'city',
+  name: 'Pocatello',
+  full_name: 'Pocatello, ID',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= #Trump2016 #TrumpTrain #PresidentTrump #AlwaysTrump
+#PAprimary #MarylandPrimary #CAPrimary #Indiana #IndianaPrimary https://t.co/CYFkVZ5T8x 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '67d92742f1ebf307',
+  url: 'https://api.twitter.com/1.1/geo/id/67d92742f1ebf307.json',
+  place_type: 'admin',
+  name: 'Michigan',
+  full_name: 'Michigan, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= A magnitude 3.3 #earthquake occurred at 05:32 PM 16.2 miles WSW of Perry, Oklahoma. Details: https://t.co/LGT5VPSuTv 
+LOCATION= Oklahoma City, OK 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @maxine_red I'm the over analytical kind.
+
+Rain turns to hail. Symbolises how sadness turns to depression. Thunder is the pain. 
+LOCATION= Scotland, United Kingdom 
+GEO= true 
+PLACE= { id: '4edcb34bec4fe9eb',
+  url: 'https://api.twitter.com/1.1/geo/id/4edcb34bec4fe9eb.json',
+  place_type: 'city',
+  name: 'Musselburgh',
+  full_name: 'Musselburgh, Scotland',
+  country_code: 'GB',
+  country: 'United Kingdom',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @lvphillies08 @dejavuskye @CA4TRUMP @realDonaldTrump 🇺🇸 Join the firestorm in CA! ❤️💋☺️ https://t.co/ZZQE1C0IxL 
+LOCATION= California 
+GEO= true 
+PLACE= { id: 'ee2cfc9feb061a08',
+  url: 'https://api.twitter.com/1.1/geo/id/ee2cfc9feb061a08.json',
+  place_type: 'city',
+  name: 'Turlock',
+  full_name: 'Turlock, CA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 3.3 magnitude #earthquake. 26 km from Perry, OK, #UnitedStates https://t.co/TE74ZwE6O8 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'bd3d2074a33fbd06',
+  url: 'https://api.twitter.com/1.1/geo/id/bd3d2074a33fbd06.json',
+  place_type: 'admin',
+  name: 'Oklahoma',
+  full_name: 'Oklahoma, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Way to go Desert Storm ⚡️#thestormisworthit  https://t.co/L65uO07nYf 
+LOCATION= Phoenix Arizona 
+GEO= true 
+PLACE= { id: '5c62ffb0f0f3479d',
+  url: 'https://api.twitter.com/1.1/geo/id/5c62ffb0f0f3479d.json',
+  place_type: 'city',
+  name: 'Phoenix',
+  full_name: 'Phoenix, AZ',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= All the Texans but #Cruz  https://t.co/89CTngi6pd 
+LOCATION= Louisiana, USA 
+GEO= true 
+PLACE= { id: '1c73ebb264e145ee',
+  url: 'https://api.twitter.com/1.1/geo/id/1c73ebb264e145ee.json',
+  place_type: 'admin',
+  name: 'Louisiana',
+  full_name: 'Louisiana, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= o único time q NÃO TEM MEDO DOS GAMBÁS NA ARENA LAVA JATO É O PALMEIRAS,os outros,se borram feito MARICAS Q SÃO.Esse audax tem q cair fora 
+LOCATION= Somewhere in Time 
+GEO= true 
+PLACE= { id: '68e019afec7d0ba5',
+  url: 'https://api.twitter.com/1.1/geo/id/68e019afec7d0ba5.json',
+  place_type: 'city',
+  name: 'Sao Paulo',
+  full_name: 'Sao Paulo, Brazil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @esmivozpatria @NeiL040613 @augustofloresa @fabianguarderas @ecuavisa Correa y el Terremoto   https://t.co/aM9suwxnlX 
+LOCATION= Guayaquil 
+GEO= true 
+PLACE= { id: '4e43cac8250a8b20',
+  url: 'https://api.twitter.com/1.1/geo/id/4e43cac8250a8b20.json',
+  place_type: 'country',
+  name: 'Ecuador',
+  full_name: 'Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @DrodriguezVen @GuillaumeLong como dan ayuda si tienen a todo unpublo pasando mas hambre que los del terremoto SINICOS ASESINOS 
+LOCATION= Colombia 
+GEO= true 
+PLACE= { id: '00082d21223f8397',
+  url: 'https://api.twitter.com/1.1/geo/id/00082d21223f8397.json',
+  place_type: 'city',
+  name: 'Santa Marta',
+  full_name: 'Santa Marta, Colombia',
+  country_code: 'CO',
+  country: 'Colombia',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Aquí quien llore lo mando detenido: palabras de Correa a víctimas de terremoto https://t.co/luV1Zs6STb vía @NoticiasCaracol 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '0161be1b3f98d6c3',
+  url: 'https://api.twitter.com/1.1/geo/id/0161be1b3f98d6c3.json',
+  place_type: 'city',
+  name: 'Bogotá, D.C.',
+  full_name: 'Bogotá, D.C., Colombia',
+  country_code: 'CO',
+  country: 'Colombia',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @NeiL040613 @augustofloresa @esmivozpatria  @ecuavisa  Correa y el Terremoto   https://t.co/aM9suwxnlX 
+LOCATION= Guayaquil 
+GEO= true 
+PLACE= { id: '4e43cac8250a8b20',
+  url: 'https://api.twitter.com/1.1/geo/id/4e43cac8250a8b20.json',
+  place_type: 'country',
+  name: 'Ecuador',
+  full_name: 'Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 2Pac - Hail Mary 🔥🎶 
+LOCATION= Puteaux, France 
+GEO= true 
+PLACE= { id: '17bb3331bbfe39dc',
+  url: 'https://api.twitter.com/1.1/geo/id/17bb3331bbfe39dc.json',
+  place_type: 'city',
+  name: 'Puteaux',
+  full_name: 'Puteaux, France',
+  country_code: 'FR',
+  country: 'France',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @readathon 🐝🐝Two big furry ones got trapped between storm windows. Much patience was required to let them do their thing but help them out. 
+LOCATION= Connecticut, USA 
+GEO= true 
+PLACE= { id: '0136444405eb084a',
+  url: 'https://api.twitter.com/1.1/geo/id/0136444405eb084a.json',
+  place_type: 'city',
+  name: 'Guilford',
+  full_name: 'Guilford, CT',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Que desgraciado más nefasto este @MashiRafael: ¿cómo se le ocurre amenazar con encarcelar a afectados por terremoto? https://t.co/ogwUNDaOfB 
+LOCATION= CHILE 
+GEO= true 
+PLACE= { id: '01d461fd3da860bd',
+  url: 'https://api.twitter.com/1.1/geo/id/01d461fd3da860bd.json',
+  place_type: 'city',
+  name: 'Providencia',
+  full_name: 'Providencia, Chile',
+  country_code: 'CL',
+  country: 'Chile',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @EduardoPescator @Deuteros1974 @Pao_Basantes @VinuezaCristin1 @caacosta1962 @Rebeca_cabere @CynthiaJaVa Terremoto   https://t.co/aM9suwxnlX 
+LOCATION= Guayaquil 
+GEO= true 
+PLACE= { id: '4e43cac8250a8b20',
+  url: 'https://api.twitter.com/1.1/geo/id/4e43cac8250a8b20.json',
+  place_type: 'country',
+  name: 'Ecuador',
+  full_name: 'Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= "You have such a February face, so full of frost, of storm and cloudiness" #Shakespeare400 #shakespearewho #bardabag 
+LOCATION= Manchester, England 
+GEO= true 
+PLACE= { id: '315b740b108481f6',
+  url: 'https://api.twitter.com/1.1/geo/id/315b740b108481f6.json',
+  place_type: 'city',
+  name: 'Manchester',
+  full_name: 'Manchester, England',
+  country_code: 'GB',
+  country: 'United Kingdom',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @esmivozpatria @nellymarac Correa y el Terremoto   https://t.co/aM9suwxnlX 
+LOCATION= Guayaquil 
+GEO= true 
+PLACE= { id: '4e43cac8250a8b20',
+  url: 'https://api.twitter.com/1.1/geo/id/4e43cac8250a8b20.json',
+  place_type: 'country',
+  name: 'Ecuador',
+  full_name: 'Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= NIÑA RESCATADA VIVA EN TERREMOTO DE ECUADOR REAFIRMA NUESTRA CREENCIA DE QUE DIOS PROTEGE A LA NIÑEZ https://t.co/XQetT8CbM1 
+LOCATION= Venezuela 
+GEO= true 
+PLACE= { id: '043383f8b2b79918',
+  url: 'https://api.twitter.com/1.1/geo/id/043383f8b2b79918.json',
+  place_type: 'country',
+  name: 'Venezuela',
+  full_name: 'Venezuela',
+  country_code: 'VE',
+  country: 'Venezuela',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Pasando el terremoto siguen replicas y por último la + fuerte? llega por el acomodamiento de las placas tectónicas 😣 https://t.co/JeG5XRAMKC 
+LOCATION= Bolivia 
+GEO= true 
+PLACE= { id: 'c4320f726d222937',
+  url: 'https://api.twitter.com/1.1/geo/id/c4320f726d222937.json',
+  place_type: 'country',
+  name: 'Bolivia',
+  full_name: 'Bolivia',
+  country_code: 'BO',
+  country: 'Bolivia',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= ¿En serio hay gente diciendo que el terremoto de Ecuador es culpa de USA/UK? del tal Proyecto HAARP. 
+LOCATION= Living Murder City 
+GEO= true 
+PLACE= { id: '043383f8b2b79918',
+  url: 'https://api.twitter.com/1.1/geo/id/043383f8b2b79918.json',
+  place_type: 'country',
+  name: 'Venezuela',
+  full_name: 'Venezuela',
+  country_code: 'VE',
+  country: 'Venezuela',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= RIP to our field and dugout, &amp; beccas car. Tornado hit CNCC. https://t.co/6ahjC4p2eV 
+LOCATION= cncc softball  
+GEO= true 
+PLACE= { id: '07d9e17c63480000',
+  url: 'https://api.twitter.com/1.1/geo/id/07d9e17c63480000.json',
+  place_type: 'poi',
+  name: 'Colorado Northwestern Community College',
+  full_name: 'Colorado Northwestern Community College',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Y'all remember shark boy &amp; lava girl 
+LOCATION= Michigan 
+GEO= true 
+PLACE= { id: '0022acf0052352cf',
+  url: 'https://api.twitter.com/1.1/geo/id/0022acf0052352cf.json',
+  place_type: 'city',
+  name: 'Grand Blanc',
+  full_name: 'Grand Blanc, MI',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= 2016-04-24T06:49+0900 PGV:0.6 INT:2.2 https://t.co/YZTrh0gBLy #Oita #earthquake #jishin 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'f0635f79100ac32f',
+  url: 'https://api.twitter.com/1.1/geo/id/f0635f79100ac32f.json',
+  place_type: 'city',
+  name: 'Oguni-machi',
+  full_name: 'Oguni-machi, Kumamoto',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= YAS BIG RED 😍❤️ https://t.co/448i8SG3GE 
+LOCATION= somewhere where it'sunny & 5pm 
+GEO= true 
+PLACE= { id: 'dd9c503d6c35364b',
+  url: 'https://api.twitter.com/1.1/geo/id/dd9c503d6c35364b.json',
+  place_type: 'admin',
+  name: 'Pennsylvania',
+  full_name: 'Pennsylvania, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Yours is built like the Mariana Trench. Scientists still finding new depths boo  https://t.co/mwmkBK8CdE 
+LOCATION= Hades  
+GEO= true 
+PLACE= { id: 'a307591cd0413588',
+  url: 'https://api.twitter.com/1.1/geo/id/a307591cd0413588.json',
+  place_type: 'city',
+  name: 'Buffalo',
+  full_name: 'Buffalo, NY',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @leninmarinoi @Willywild6 @George_Henry19  @olgain59 @kimberlymontse1 @EluinG @fernapiensa Correa y el Terremoto   https://t.co/aM9suwxnlX 
+LOCATION= Guayaquil 
+GEO= true 
+PLACE= { id: '4e43cac8250a8b20',
+  url: 'https://api.twitter.com/1.1/geo/id/4e43cac8250a8b20.json',
+  place_type: 'country',
+  name: 'Ecuador',
+  full_name: 'Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @StormofSpoilers @jowrotethis @Da7e As a later listener to Storm of Spoilers, this was new to me and made my day 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '7d62cffe6f98f349',
+  url: 'https://api.twitter.com/1.1/geo/id/7d62cffe6f98f349.json',
+  place_type: 'city',
+  name: 'San Jose',
+  full_name: 'San Jose, CA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= ❤🐶🙏 https://t.co/mMfXAEtlpS 
+LOCATION= Escazú, San José. Costa Rica.  
+GEO= true 
+PLACE= { id: '0003557c7b244fd3',
+  url: 'https://api.twitter.com/1.1/geo/id/0003557c7b244fd3.json',
+  place_type: 'admin',
+  name: 'San José',
+  full_name: 'San José, Costa Rica',
+  country_code: 'CR',
+  country: 'Costa Rica',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= A proper burial. All hail.  https://t.co/NapY5m48X2 
+LOCATION= The Gulf Coast 
+GEO= true 
+PLACE= { id: 'd049033410e9e81b',
+  url: 'https://api.twitter.com/1.1/geo/id/d049033410e9e81b.json',
+  place_type: 'city',
+  name: 'Mobile',
+  full_name: 'Mobile, AL',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Alguém lava a louça 
+LOCATION= Porto Alegre-RS 
+GEO= true 
+PLACE= { id: '894146230dd1d42d',
+  url: 'https://api.twitter.com/1.1/geo/id/894146230dd1d42d.json',
+  place_type: 'city',
+  name: 'Porto Alegre',
+  full_name: 'Porto Alegre, Brasil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= you're telling me nobody is there to dry up the flood 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'd9d978b087a92583',
+  url: 'https://api.twitter.com/1.1/geo/id/d9d978b087a92583.json',
+  place_type: 'city',
+  name: 'Belo Horizonte',
+  full_name: 'Belo Horizonte, Brasil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= In The Words Of David Bowie . . . "Let's Dance" #Inspirational https://t.co/Z6FT9UrUTb 
+LOCATION= Texas 
+GEO= true 
+PLACE= { id: '3f3f6803f117606d',
+  url: 'https://api.twitter.com/1.1/geo/id/3f3f6803f117606d.json',
+  place_type: 'city',
+  name: 'Lubbock',
+  full_name: 'Lubbock, TX',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= "Facebook, Google campuses at risk of being flooded due to sea level rise" https://t.co/9vCZ0HAb6K 
+LOCATION= Lurgan 
+GEO= true 
+PLACE= { id: '32c74076799957c5',
+  url: 'https://api.twitter.com/1.1/geo/id/32c74076799957c5.json',
+  place_type: 'city',
+  name: 'Lurgan',
+  full_name: 'Lurgan, Northern Ireland',
+  country_code: 'GB',
+  country: 'United Kingdom',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= POP: Sábado de diluvio! @JeanSuriel https://t.co/FVKhtagY8C 
+LOCATION= Puerto Plata, Rep. Dom. 
+GEO= true 
+PLACE= { id: '0101e9c417ecd4e9',
+  url: 'https://api.twitter.com/1.1/geo/id/0101e9c417ecd4e9.json',
+  place_type: 'city',
+  name: 'Puerto Plata',
+  full_name: 'Puerto Plata, Dominican Republic',
+  country_code: 'DO',
+  country: 'Dominican Republic',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @totosalvio8 és o melhor! O meu ídolo, um dia gostaria de te conhecer, seria um sonho tornado realidade totó! Um abraço para ti e família 😊 
+LOCATION= são miguel, açores 
+GEO= true 
+PLACE= { id: '120248073af6ca31',
+  url: 'https://api.twitter.com/1.1/geo/id/120248073af6ca31.json',
+  place_type: 'city',
+  name: 'Almada',
+  full_name: 'Almada, Portugal',
+  country_code: 'PT',
+  country: 'Portugal',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Hail was absolutely incredible😍😍😭😭 
+LOCATION= Fire and Ice 
+GEO= true 
+PLACE= { id: '4ec01c9dbc693497',
+  url: 'https://api.twitter.com/1.1/geo/id/4ec01c9dbc693497.json',
+  place_type: 'admin',
+  name: 'Florida',
+  full_name: 'Florida, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Uma vez uma amiga me deu um chupão e eu falei pro meu pai que eu levantei de madrugada cai e bati o pescoço na quina da lava louças 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '23d81de6fe7594cb',
+  url: 'https://api.twitter.com/1.1/geo/id/23d81de6fe7594cb.json',
+  place_type: 'city',
+  name: 'Goiânia',
+  full_name: 'Goiânia, Brasil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Desert Storm Elite Rage made it to Semi-Finals  - will post time once determined! Let's Rage!… https://t.co/QenhqOEUPg 
+LOCATION= ÜT: 33.621748,-112.108559 
+GEO= true 
+PLACE= { id: '4ec01c9dbc693497',
+  url: 'https://api.twitter.com/1.1/geo/id/4ec01c9dbc693497.json',
+  place_type: 'admin',
+  name: 'Florida',
+  full_name: 'Florida, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= En este momento el @ZapopanGob combate incendio forestal en Bolsa de Rayo Tesistán con #Tláloc @zapopanprensa https://t.co/VPpfmpm3Ty 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '8e098f6d686001a9',
+  url: 'https://api.twitter.com/1.1/geo/id/8e098f6d686001a9.json',
+  place_type: 'city',
+  name: 'Zapopan',
+  full_name: 'Zapopan, Jalisco',
+  country_code: 'MX',
+  country: 'México',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Se me destiñó la remera de la promo soy una mogólica que lava la ropa borracha,sí. 
+LOCATION= San Luis - ARG  
+GEO= true 
+PLACE= { id: '018fe41c01f25b41',
+  url: 'https://api.twitter.com/1.1/geo/id/018fe41c01f25b41.json',
+  place_type: 'city',
+  name: 'San Luis',
+  full_name: 'San Luis, Argentina',
+  country_code: 'AR',
+  country: 'Argentina',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= When you haven't worked out for two weeks and you feel like a lava lamp https://t.co/5AZySFFkJv 
+LOCATION= San Francisco, CA 
+GEO= true 
+PLACE= { id: '52a0517c2183cf22',
+  url: 'https://api.twitter.com/1.1/geo/id/52a0517c2183cf22.json',
+  place_type: 'city',
+  name: 'Amarillo',
+  full_name: 'Amarillo, TX',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Check out this musical: https://t.co/3NMvxAoiuY (made by klairereynoso with @musicallyapp) #wildfire 
+LOCATION= Washington, DC 
+GEO= true 
+PLACE= { id: '4dad272dba156a02',
+  url: 'https://api.twitter.com/1.1/geo/id/4dad272dba156a02.json',
+  place_type: 'city',
+  name: 'Annandale',
+  full_name: 'Annandale, VA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Ecuatorianos planean hacer tres minutos de silencio a 18:58pm  #HOY en honor a las víctimas del  #terremoto 
+LOCATION= Latinoamérica 
+GEO= true 
+PLACE= { id: '043383f8b2b79918',
+  url: 'https://api.twitter.com/1.1/geo/id/043383f8b2b79918.json',
+  place_type: 'country',
+  name: 'Venezuela',
+  full_name: 'Venezuela',
+  country_code: 'VE',
+  country: 'Venezuela',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Semyaza just left when Noah wanted A flood
+YAHWEH 
+LOCATION= Texas Township.Michigan.USA 
+GEO= true 
+PLACE= { id: '01330bbf19b293ef',
+  url: 'https://api.twitter.com/1.1/geo/id/01330bbf19b293ef.json',
+  place_type: 'city',
+  name: 'Texas',
+  full_name: 'Texas, MI',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Drinking a Tiny Tornado DIPA by @westbrookbeer @ Casa Curry — https://t.co/dR1AgEncFL #photo 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '8b351eeb91372dc7',
+  url: 'https://api.twitter.com/1.1/geo/id/8b351eeb91372dc7.json',
+  place_type: 'city',
+  name: 'Evanston',
+  full_name: 'Evanston, IL',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @kristinebertinn tropical tornado or Canadian colada are super good 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '0811cf61cd9ea52f',
+  url: 'https://api.twitter.com/1.1/geo/id/0811cf61cd9ea52f.json',
+  place_type: 'city',
+  name: 'Winnipeg',
+  full_name: 'Winnipeg, Manitoba',
+  country_code: 'CA',
+  country: 'Canada',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= I've always been told I could do damage in NY. Been thinking about the move. Music starts in NY. I can flood from there... Or nah lol 
+LOCATION= SD/OC/LA/ATL/NY/  
+GEO= true 
+PLACE= { id: '0562e9e53cddf6ec',
+  url: 'https://api.twitter.com/1.1/geo/id/0562e9e53cddf6ec.json',
+  place_type: 'city',
+  name: 'Santa Ana',
+  full_name: 'Santa Ana, CA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Why Lance Storm's strikes never improved. 
+https://t.co/SfrDH0C3aZ https://t.co/JOjDvjqTrK 
+LOCATION= Dublin 
+GEO= true 
+PLACE= { id: '7dde0febc9ef245b',
+  url: 'https://api.twitter.com/1.1/geo/id/7dde0febc9ef245b.json',
+  place_type: 'city',
+  name: 'Dublin City',
+  full_name: 'Dublin City, Ireland',
+  country_code: 'IE',
+  country: 'Ireland',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= To change. And they will NEVER change it. MAYBE, just MAYBE 100 years down the road. MAYBE. HAIL TO THE FUCKING REDSKINS 
+LOCATION= Laurel, Maryland 
+GEO= true 
+PLACE= { id: '7ded7ee14cb871d2',
+  url: 'https://api.twitter.com/1.1/geo/id/7ded7ee14cb871d2.json',
+  place_type: 'city',
+  name: 'Laurel',
+  full_name: 'Laurel, MD',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Con todo esto del terremoto, no tuve chance de decirles que me enamoré de una argenta en un McDonalds. 
+LOCATION= Ecuador 
+GEO= true 
+PLACE= { id: '0177bc687a9ac697',
+  url: 'https://api.twitter.com/1.1/geo/id/0177bc687a9ac697.json',
+  place_type: 'city',
+  name: 'Quito',
+  full_name: 'Quito, Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= #Repost @danceworlds with repostapp.
+・・・
+Queen City Storm-Storm… https://t.co/slW6o57DFN 
+LOCATION= Fairfield, OH 
+GEO= true 
+PLACE= { id: '4ec01c9dbc693497',
+  url: 'https://api.twitter.com/1.1/geo/id/4ec01c9dbc693497.json',
+  place_type: 'admin',
+  name: 'Florida',
+  full_name: 'Florida, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Lance Storm working himself into the next season of Total Divas https://t.co/Mb9Gp4CNhF 
+LOCATION= Dublin 
+GEO= true 
+PLACE= { id: '7dde0febc9ef245b',
+  url: 'https://api.twitter.com/1.1/geo/id/7dde0febc9ef245b.json',
+  place_type: 'city',
+  name: 'Dublin City',
+  full_name: 'Dublin City, Ireland',
+  country_code: 'IE',
+  country: 'Ireland',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Lol swear 😂😂😂😂 that's cause I wasn't there man. We ain't never lost z🙄🙄🙄 https://t.co/wQhQeSmG1z 
+LOCATION= Fenkell Ave! 
+GEO= true 
+PLACE= { id: '6eb95eddb81a6b4b',
+  url: 'https://api.twitter.com/1.1/geo/id/6eb95eddb81a6b4b.json',
+  place_type: 'city',
+  name: 'Benito Juárez',
+  full_name: 'Benito Juárez, Quintana Roo',
+  country_code: 'MX',
+  country: 'México',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= The storm brewing outside our apartment. 😳 @ Santiago, Dominican… https://t.co/O6ltY2P5NE 
+LOCATION= Dominican Republic 
+GEO= true 
+PLACE= { id: '0093a5dd1242be45',
+  url: 'https://api.twitter.com/1.1/geo/id/0093a5dd1242be45.json',
+  place_type: 'city',
+  name: 'Santiago',
+  full_name: 'Santiago, Dominican Republic',
+  country_code: 'DO',
+  country: 'Dominican Republic',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= cianfabio cooking up a storm - #asparagus @ New York, New York https://t.co/X61tUegRjd 
+LOCATION= Brooklyn, NY 
+GEO= true 
+PLACE= { id: '01a9a39529b27f36',
+  url: 'https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json',
+  place_type: 'city',
+  name: 'Manhattan',
+  full_name: 'Manhattan, NY',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= #BlackDay
+#HelpQuakeVictimNepal Rip to all who Died in massive earthquake one yrs ago https://t.co/Ne5ZUVTh1l 
+LOCATION= Kathmandu,Nepal 
+GEO= true 
+PLACE= { id: 'f1d3a53f8a3cc7e9',
+  url: 'https://api.twitter.com/1.1/geo/id/f1d3a53f8a3cc7e9.json',
+  place_type: 'country',
+  name: 'Nepal',
+  full_name: 'Nepal',
+  country_code: 'NP',
+  country: 'Nepal',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+{ [TypeError: Cannot read property 'location' of undefined]
+  source: { limit: { track: 1, timestamp_ms: '1461452364466' } } }
+*********************
+
+TWEET-GEO= #DaleRT
+
+INICIATIVA CIUDADANA
+
+A las 18:58, tres minutos en conmemoración a las víctimas del terremoto. 
+
+🙏🙏🙏🙏🙏🙏🙏🙏🙏 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '009924a469d7ace1',
+  url: 'https://api.twitter.com/1.1/geo/id/009924a469d7ace1.json',
+  place_type: 'city',
+  name: 'Guayaquil',
+  full_name: 'Guayaquil, Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Temp 59.0° Hi/Lo 68.4/55.1 Rng 13.3° WC 58.5° Hmd 38% Rain 0.11" Storm 0.26" BAR 29.871 Rising DP 33.4° Wnd 9mph Dir NNE Gst 23mph Snw 0" 
+LOCATION= Hopkinton, MA 
+GEO= true 
+PLACE= { id: '7f22ddc6360b50e3',
+  url: 'https://api.twitter.com/1.1/geo/id/7f22ddc6360b50e3.json',
+  place_type: 'city',
+  name: 'Hopkinton',
+  full_name: 'Hopkinton, MA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Gekke storm van vannacht heeft dingen destroyes 
+LOCATION= Amersfoort 
+GEO= true 
+PLACE= { id: '07fefc42d1da90c0',
+  url: 'https://api.twitter.com/1.1/geo/id/07fefc42d1da90c0.json',
+  place_type: 'country',
+  name: 'Lao People\'s Democratic Republic',
+  full_name: 'Lao People\'s Democratic Republic',
+  country_code: 'LA',
+  country: 'Lao People\'s Democratic Republic',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= https://t.co/xBlf6RXNE2 
+LOCATION= Luis Vernaza 606 y Tungurahua 
+GEO= true 
+PLACE= { id: '009924a469d7ace1',
+  url: 'https://api.twitter.com/1.1/geo/id/009924a469d7ace1.json',
+  place_type: 'city',
+  name: 'Guayaquil',
+  full_name: 'Guayaquil, Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Annapurna, what an idea to commemorate earthquake anniversary by releasing thousands of balloons!  @Annapurna_Post #doreal #nolittering 
+LOCATION= United States 
+GEO= true 
+PLACE= { id: 'c7ef5f3368b68777',
+  url: 'https://api.twitter.com/1.1/geo/id/c7ef5f3368b68777.json',
+  place_type: 'city',
+  name: 'Baton Rouge',
+  full_name: 'Baton Rouge, LA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Another Dumbass #TrumpBot. Bless your heart dear the Governor is in charge of the state and directs disaster relief https://t.co/hNS0jnLfPg 
+LOCATION= Little Elm, TX 
+GEO= true 
+PLACE= { id: 'bd331d141f66eead',
+  url: 'https://api.twitter.com/1.1/geo/id/bd331d141f66eead.json',
+  place_type: 'city',
+  name: 'Little Elm',
+  full_name: 'Little Elm, TX',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= many cats are missing because of the earthquake.KURO was missing too. but came back yesterday. 
+LOCATION= Kumamoto/Japan 
+GEO= true 
+PLACE= { id: 'caf7d3e1838cd7de',
+  url: 'https://api.twitter.com/1.1/geo/id/caf7d3e1838cd7de.json',
+  place_type: 'city',
+  name: '甲佐町',
+  full_name: '熊本 甲佐町',
+  country_code: 'JP',
+  country: '日本',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= USGS reports a M0.82 #earthquake 7km W of The Geysers, California on 4/23/16 @ 22:59:31 UTC https://t.co/JtrjqyHTBE #quake 
+LOCATION= Earth 
+GEO= true 
+PLACE= { id: 'fbd6d2f5a4e4a15e',
+  url: 'https://api.twitter.com/1.1/geo/id/fbd6d2f5a4e4a15e.json',
+  place_type: 'admin',
+  name: 'California',
+  full_name: 'California, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= USGS reports a M0.82 #earthquake 7km W of The Geysers, California on 4/23/16 @ 22:59:31 UTC https://t.co/33x1tGGpWc #quake 
+LOCATION= null 
+GEO= true 
+PLACE= { id: 'fbd6d2f5a4e4a15e',
+  url: 'https://api.twitter.com/1.1/geo/id/fbd6d2f5a4e4a15e.json',
+  place_type: 'admin',
+  name: 'California',
+  full_name: 'California, USA',
+  country_code: 'US',
+  country: 'United States',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= @islandproball get ready for an amazing performance by @Official4Count. Taking the East coast by "storm" #4count https://t.co/KDx0kfPLPU 
+LOCATION= Canada 
+GEO= true 
+PLACE= { id: '4b3d1118aaf39b1f',
+  url: 'https://api.twitter.com/1.1/geo/id/4b3d1118aaf39b1f.json',
+  place_type: 'city',
+  name: 'Charlottetown',
+  full_name: 'Charlottetown, Prince Edward Island',
+  country_code: 'CA',
+  country: 'Canada',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= A beautiful view of sunrise just like a beautiful friendship we have. 🙌🏻🌄🌥 @ Taal Volcano,… https://t.co/uDWn9oiuTm 
+LOCATION= Fort Bonifacio, Taguig 
+GEO= true 
+PLACE= { id: '01230e78373323c2',
+  url: 'https://api.twitter.com/1.1/geo/id/01230e78373323c2.json',
+  place_type: 'city',
+  name: 'Tagaytay',
+  full_name: 'Tagaytay, Calabarzon',
+  country_code: 'PH',
+  country: 'Republika ng Pilipinas',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= I'm at Lava Jato Pau de Vela in Santo Estêvão, BA https://t.co/t8z3t3Ws2q 
+LOCATION= Ba. 
+GEO= true 
+PLACE= { id: '29a33ab89dcf1ffd',
+  url: 'https://api.twitter.com/1.1/geo/id/29a33ab89dcf1ffd.json',
+  place_type: 'city',
+  name: 'Santo Estêvão',
+  full_name: 'Santo Estêvão, Brasil',
+  country_code: 'BR',
+  country: 'Brasil',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Cuando ponen Hail to the king en un juego de los Red Sox. 
+LOCATION= Queretaro 
+GEO= true 
+PLACE= { id: 'd3492c68c5661201',
+  url: 'https://api.twitter.com/1.1/geo/id/d3492c68c5661201.json',
+  place_type: 'city',
+  name: 'Querétaro',
+  full_name: 'Querétaro, Querétaro Arteaga',
+  country_code: 'MX',
+  country: 'México',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
+*********************
+
+TWEET-GEO= Y donde esta la primera dama del ecuador......donde esta apoyando a nuestros hermanos del terremoto 
+LOCATION= null 
+GEO= true 
+PLACE= { id: '009924a469d7ace1',
+  url: 'https://api.twitter.com/1.1/geo/id/009924a469d7ace1.json',
+  place_type: 'city',
+  name: 'Guayaquil',
+  full_name: 'Guayaquil, Ecuador',
+  country_code: 'EC',
+  country: 'Ecuador',
+  bounding_box: { type: 'Polygon', coordinates: [ [Object] ] },
+  attributes: {} } 
+
