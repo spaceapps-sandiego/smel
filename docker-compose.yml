@@ -8,10 +8,12 @@ smel-db:
 
 smel-www:
   build: smel-www
+  container_name: smel-www
   links:
     - smel-db
   volumes:
-    - "./smel-www/code:/var/www"
+    - "./smel-www:/var/www"
+  command: tail -f /dev/null #TEMP
 
 smel-proxy:
   image: annixa/docker-nginx-letsencrypt-proxy

@@ -1,5 +1,5 @@
 FROM node:5.11
-MAINTAINER Space Apps <spaceapps.sandiego@gmail>
+MAINTAINER Space Apps <spaceapps.sandiego@gmail.com>
 
 RUN npm -g install \
 	twitter
