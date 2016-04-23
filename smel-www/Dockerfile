@@ -1,6 +1,8 @@
 FROM node:5.11
 MAINTAINER Space Apps <spaceapps.sandiego@gmail>
 
+RUN npm -g install \
+	twitter
 
 RUN mkdir -p /var/www
 COPY client /var/www

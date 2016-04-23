@@ -25,7 +25,7 @@ smel-proxy:
     # - LE_TEST=true # LE is rate limited. While doing development, be sure to set testing mode so requests don't count against our quota.
     - LE_EMAIL=spaceapps.sandiego@gmail.com
     - LE_DOMAIN=smel.final-frontier.space
-    - PROXY_DEST=http://smel-www/
+    - PROXY_DEST=http://smel-www:8888/
     - SLACK_NOTIFICATIONS_INFRA_URL=https://hooks.slack.com/services/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 # Be sure to fill this in using your URL for the slack webhook integration
   volumes:
     - "/etc/letsencrypt"
