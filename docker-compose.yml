@@ -1,5 +1,6 @@
 smel-db:
-  image: postgres:9.5
+#  image: postgres:9.5
+  image: mdillon/postgis
   container_name: smel-db
   environment:
     - POSTGRES_PASSWORD=SM3L_yUh-L4trr
