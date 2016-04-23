@@ -6,18 +6,16 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
     },
-
+    eslint: {
+        configFile: './.eslintrc.json'
+    },
     module: {
         loaders: [
             // js/jsx
             {
                 test: /src\/.+\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel',
-                query: {
-                    cacheDirectory: true,
-                    presets: ['react', 'react-hmre', 'es2015']
-                }
+                loaders: ['babel?presets[]=react,presets[]=react-hmre,presets[]=es2015', 'eslint-loader']
             },
             // styles
             {
@@ -25,7 +23,11 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'style!css!less'
             },
-            { test: /\.(ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file-loader' }
+            // font files
+            {
+                test: /\.(ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                loader: 'file-loader'
+            }
         ]
     }
 };
