@@ -4,8 +4,8 @@
   "description": "Client for SMEL",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
-    "start-dev": "./node_modules/.bin/webpack-dev-server --hot --progress --inline --colors"
+    "build": "webpack",
+    "start-dev": "webpack-dev-server --hot --progress --inline --colors"
   },
   "author": "SpaceApps San Diego",
   "repository": {
