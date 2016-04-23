@@ -12,3 +12,16 @@ npm install
 npm run start-dev
 ```
 Open up your browser to localhost:8080 to view the client. The webpack dev server will rebuild and replace code inside your browser when you make changes.
+
+
+###Team members
+- Jeremy
+- Nathan
+- Cris
+- Brick
+- Adam
+- Slav
+- Sharon
+- Dennis
+
+Translation help by Ivan Rodriguez
