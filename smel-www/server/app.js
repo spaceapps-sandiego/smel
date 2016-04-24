@@ -10,7 +10,8 @@ import path from 'path';
 import fs from 'fs';
 import api, {events, tweets} from './api';
 import serveFile from './middleware/serve_file';
-import pgCheck from './db';
+import {pgCheck, conn} from './db';
+import initTwitter from './aggregators/twitter';
 
 const BUNDLE_PATH = path.join(__dirname, '../client/dist/bundle.js');
 const INDEX_PATH = path.join(__dirname, '../client/index.html');
@@ -37,4 +38,6 @@ pgCheck(function() {
 
         console.info('==> 🌎 Listening on port %s. Open up http://0.0.0.0:%s/ in your browser.', PORT, PORT);
     });
+
+    initTwitter(conn);
 });
