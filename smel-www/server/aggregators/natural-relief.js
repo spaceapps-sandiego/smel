@@ -35,6 +35,8 @@ class NaturalRelief extends Natural{
 		
 		request(url, function(error, response, body){
 
+			var update_count = 0;
+
 			var response_data = JSON.parse(body);
 			var response_features = response_data["data"];
 
@@ -46,7 +48,7 @@ class NaturalRelief extends Natural{
 				var feature_href = feature["href"].replace("\/", "/");
 				var feature_name = feature["fields"]["name"];
 				
-				request(feature_href, function(error, response, body){
+				request(feature_href, (error, response, body) => {
 
 					var feature_details = JSON.parse(body);
 					var feature_details_data = feature_details["data"];
@@ -71,10 +73,11 @@ class NaturalRelief extends Natural{
 							
 							this.insertOrUpdate(feature_id, source, feature_date, feature_updated, type_code_map[feature_type_code], location_name, feature_location, feature_title);
 
+							update_count += 1;
 						}
 					};
 
-
+					console.log(`Natural "${source}": processed ${update_count} values`);
 				});
 
 

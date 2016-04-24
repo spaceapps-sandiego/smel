@@ -37,7 +37,11 @@ class NaturalUSGS extends Natural{
 				
 				// Check id against database and insert/update if necessary
 				this.insertOrUpdate(feature_id, source, feature_time, null, "earthquake", feature_place, feature_location, feature_title);
+				update_count += 1;
 			};
+
+
+			console.log(`Natural "${source}": processed ${update_count} values`);
 		});
 
 	}
