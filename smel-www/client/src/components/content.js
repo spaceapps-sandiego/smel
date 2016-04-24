@@ -5,17 +5,16 @@
 
 import React, {Component} from 'react';
 import Header from './header';
+import EventList from './event_list';
 
 class Content extends Component {
     render() {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-12">
+                    <div className="col-xs-12">
                         <Header />
-                        <p className="lead">
-                            Eventually we're going to put some more stuff here where you can see stuff about dangers
-                        </p>
+                        <EventList />
                     </div>
                 </div>
             </div>
