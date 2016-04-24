@@ -17,6 +17,7 @@
     "babel-register": "^6.7.2",
     "express": "^4.13.4",
     "fs-promise": "^0.5.0",
-    "twitter": "^1.2.5"
+    "twitter": "^1.2.5",
+    "pg": "^4.5.3"
   }
 }

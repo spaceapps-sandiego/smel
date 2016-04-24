@@ -1,11 +1,7 @@
 smel-db:
-#  image: postgres:9.5
   image: mdillon/postgis
   container_name: smel-db
-  environment:
-    - POSTGRES_PASSWORD=SM3L_yUh-L4trr
-    - POSTGRES_USER=smel
-    - POSTGRES_DB=smel
+  env_file: smel-db.env
 
 smel-www:
   build: smel-www
@@ -16,7 +12,9 @@ smel-www:
     - "./smel-www:/var/www"
   ports:
     - "8888:8888"
-  env_file: smel.env
+  env_file:
+    - smel.env
+    - smel-db.env
 
 smel-proxy:
   image: annixa/docker-nginx-letsencrypt-proxy
