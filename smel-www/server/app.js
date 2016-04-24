@@ -12,6 +12,8 @@ import api, {events, tweets} from './api';
 import serveFile from './middleware/serve_file';
 import {pgCheck, conn} from './db';
 import initTwitter from './aggregators/twitter';
+import NaturalUSGS from './aggregators/natural-usgs';
+import NaturalRelief from './aggregators/natural-relief';
 
 const BUNDLE_PATH = path.join(__dirname, '../client/dist/bundle.js');
 const INDEX_PATH = path.join(__dirname, '../client/index.html');
@@ -40,4 +42,6 @@ pgCheck(function() {
     });
 
     initTwitter(conn);
+    var nat_usgs = new NaturalUSGS({});
+    var nat_relief = new NaturalRelief({});
 });
