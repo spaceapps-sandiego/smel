@@ -1,12 +1,14 @@
-
+'use strict';
 
 class Natural{
-	constructor(){
-		this.API_SLEEP = 60;
+	constructor(db, sleep){
+		this.API_SLEEP = sleep;
+		this.db = db;
 		this.start();
 	}
 
 	start(){
+		this.run();
 		setTimeout(() => {
 			this.run();
 			this.start();
@@ -19,3 +21,5 @@ class Natural{
 		throw new TypeError("Do not call the super method run() from a child.");
 	}
 }
+
+module.exports = Natural;
