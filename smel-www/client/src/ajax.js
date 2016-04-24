@@ -5,12 +5,13 @@
 
 function makeRequest(method, url, options, resolve, reject) {
     // Do the usual XHR stuff
-    var req = new XMLHttpRequest();
+    let req = new XMLHttpRequest();
     req.open(method, url);
 
     req.onload = function() {
-        var resp = req.response;
-        if (req.responseType === 'json') {
+        let resp = req.response;
+        const contentType = req.getResponseHeader('Content-Type');
+        if (contentType.indexOf('application/json') === 0) {
             resp = JSON.parse(resp);
         }
 

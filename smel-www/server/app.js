@@ -8,6 +8,7 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
+import api, {events, tweets} from './api';
 import serveFile from './middleware/serve_file';
 
 const BUNDLE_PATH = path.join(__dirname, '../client/dist/bundle.js');
@@ -19,6 +20,10 @@ const app = express();
 
 app.get('/bundle.js', serveFile(BUNDLE_PATH));
 app.get('/favicon.ico', serveFile(FAVICON));
+
+// api routes
+app.get('/api/events', api.makeHandler(events.get));
+app.get('/api/tweets', api.makeHandler(tweets.get));
 
 // anything else just serves index.html
 app.get('*', serveFile(INDEX_PATH));
