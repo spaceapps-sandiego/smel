@@ -5,6 +5,7 @@ var connString = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HO
 var check_count = 0;
 
 //connects to the database
+var conn;
 var pgCheck = function(cb) {
     pg.connect(connString, function(error, client, done) {
         if (error) {
@@ -26,9 +27,10 @@ var pgCheck = function(cb) {
             }
 
             console.log("Postgres database check succeeded");
+            conn = client;
             cb();
         });
     });
 };
 
-export default pgCheck;
+export {pgCheck, conn};
