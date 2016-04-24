@@ -44,10 +44,13 @@ var hashtags = [
 
 // this list can be up to 100 users to follow, and must be user ID(s), not handles. Easy to convert at tweeterid.com
 var masterusers = [
-	133225023, 		// '@VolcanoAlert',		
+	133225023, 		//'@VolcanoAlert',		
 	2170342764, 	//'@VolcanoWatching',
 	14505838, 		//'@USGS' => Earthquakes
+	90954365,			//'@earthquakejapan'
+	267061897,		//'@japanquakealert'
 	403539516,		//'@Disaster_Update'
+	108543358,		//'@InfoBMKG'						// Australian/South Asia Tsunami Warnings
 	454313925,		//'@NWS',								// National Weather Service
 	2544227706,		//'@NWStornado',				// National Weather Service: Tornados
 	586909317,		//'@NWSSPC',						// National Weather Service: Storm Prediction Center
@@ -77,7 +80,7 @@ client.stream('statuses/filter', { track: hashtags.join(','), follow: masteruser
 					//  }
 					//  return;
 					// });
-  				if (debug = 1)
+  				if (debug == 1)
   				{
 	  				var tweetString = JSON.stringify(tweet);
 						FS.appendFile("fulloutput.txt", "\n\n***********************\n\n", function(err){
