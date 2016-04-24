@@ -1,8 +1,18 @@
+/**
+ * @author jjacobson93
+ * @date 4/23/2016
+ *
+ * Main API file
+ */
+
 import events from './events';
 import tweets from './tweets';
 import wrap from '../middleware/wrap';
 
 /**
+ * This wraps an `async` function that returns a promise
+ * and sends a response to the requester
+ *
  * @param {Function} method
  */
 function makeHandler(method) {
