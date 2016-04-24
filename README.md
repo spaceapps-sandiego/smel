@@ -2,7 +2,7 @@
 💁📺🌎🎤
 Social Media Earth Live (Working Title)
 
-The goal of SMEL is to collect information from Social Media and correlate it to NASA's data feeds then provide that information for the user. 
+Developed for [NASA Space Apps Challenge 2016](https://2016.spaceappschallenge.org/). The goal of SMEL is to collect information from Social Media and correlate it to NASA's data feeds then provide that information for the user. 
 
 ## Running the client
 Run the following commands to install the node modules and run the webpack dev server to compile the React client files and watch for changes.
