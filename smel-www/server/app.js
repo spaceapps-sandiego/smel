@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8888;
 
 const app = express();
 
-app.get('/bundle.js', serveFile(BUNDLE_PATH))
+app.get('/bundle.js', serveFile(BUNDLE_PATH));
 app.get('*', serveFile(INDEX_PATH));
 
 app.listen(PORT, '0.0.0.0', (err) => {
