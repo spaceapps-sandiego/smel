@@ -12,11 +12,13 @@ import serveFile from './middleware/serve_file';
 
 const BUNDLE_PATH = path.join(__dirname, '../client/dist/bundle.js');
 const INDEX_PATH = path.join(__dirname, '../client/index.html');
+const FAVICON = path.join(__dirname, './favicon.ico');
 const PORT = process.env.PORT || 8888;
 
 const app = express();
 
 app.get('/bundle.js', serveFile(BUNDLE_PATH));
+app.get('/favicon.ico', serveFile(FAVICON));
 
 // anything else just serves index.html
 app.get('*', serveFile(INDEX_PATH));

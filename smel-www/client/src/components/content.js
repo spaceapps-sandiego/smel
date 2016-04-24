@@ -11,45 +11,23 @@ class Content extends Component {
     render() {
         const events = [{
             type: 'Earthquake',
-            location: {
-                lat: 32.784594,
-                long: -117.169659
-            },
+            location: 'San Diego, California, United States',
             date: (new Date()).toISOString()
         }, {
             type: 'Tornado',
-            location: {
-                lat: 40.8394,
-                long: -80.29384
-            },
+            location: 'Ellwood City, Pennsylvania, United States',
             date: (new Date()).toISOString()
         }, {
             type: 'Earthquake',
-            location: {
-                lat: -10.075897,
-                long: -76.206739
-            },
-            date: (new Date()).toISOString()
-        }, {
-            type: 'Earthquake',
-            location: {
-                lat: -59.1595,
-                long: 102.0593
-            },
+            location: 'Ambo, Huánuco, Peru',
             date: (new Date()).toISOString()
         }, {
             type: 'Hurricane',
-            location: {
-                lat: 34.381239,
-                long: -78.4085
-            },
+            location: 'Bolton, Bladen County, North Carolina, United States',
             date: (new Date()).toISOString()
         }, {
             type: 'Alien Invasion',
-            location: {
-                lat: -28.2238,
-                long: 20.48303
-            },
+            location: 'Benede Oranje, Northern Cape, South Africa',
             date: (new Date()).toISOString()
         }];
 

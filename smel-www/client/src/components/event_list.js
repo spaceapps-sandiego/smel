@@ -11,8 +11,8 @@ import EventCard from './event_card';
 class EventList extends Component {
     render() {
         const events = this.props.events.map(ev => {
-            var loc = `(${ev.location.lat}, ${ev.location.long})`;
-            var key = [ev.type, loc, ev.date].join(',');
+            const {type, location, date} = ev;
+            const key = [type, location, date].join(',');
 
             return (
                 <EventCard
