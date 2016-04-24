@@ -65,9 +65,6 @@ var initTwitter = function(conn) {
 		    	 							console.error('error inserting tweet: ', err);
 	        						}
 	        						else {
-	        							if (debug == 1) {
-	        								//console.log("\mSQL INSERT OK, id=", result.rows[0].id);
-	        							}
 	        						}
 	        					}
 	        				);
