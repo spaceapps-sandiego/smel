@@ -1,10 +1,15 @@
 
 var Twitter = require('twitter');
 var FS = require ('fs');
-FS.writeFile("fulloutput.txt", "START:\n", function(err){
-  // nothing to do
-});
- 
+
+var debug = 0;
+if (debug == 1)
+{
+	FS.writeFile("fulloutput.txt", "START:\n", function(err) {
+	  // nothing to do
+	});
+}
+
 var client = new Twitter({
 	consumer_key: process.env.TWITTER_CONSUMER_KEY,
 	consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
@@ -12,39 +17,59 @@ var client = new Twitter({
 	access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-var keywords = [
-	'earthquake',
-	'flood',
-	'volcano',
-	'eruption',
-	'lava',
-	'storm',
-	'tornado',
-	'hail',
-	'landslide',
-	'tsunami',
-	'tidalwave',
-	'wildfire',
-	'firestorm',
-	'terremoto',
-	'diluvio',
-	'incendio'
+// this list can be up to 25 hashtags to filter on
+var hashtags = [
+	'#earthquake',
+	'#avalanche',
+	'#flood',
+	'#volcano',
+	'#tornado',
+	'#sandstorm',
+	'#hurricane',
+	'#cyclone',
+	'#typhoon',
+	'#monsoon',
+	'#thunderstorm',
+	'#elnino',
+	'#landslide',
+	'#heatwave',
+	'#tsunami',
+	'#tidalwave',
+	'#wildfire',
+	'#firestorm',
+	'#terremoto',
+	'#diluvio',
+	'#incendio'
 ];
 
+// this list can be up to 100 users to follow, and must be user ID(s), not handles. Easy to convert at tweeterid.com
+var masterusers = [
+	133225023, 		// '@VolcanoAlert',		
+	2170342764, 	//'@VolcanoWatching',
+	14505838, 		//'@USGS' => Earthquakes
+	403539516,		//'@Disaster_Update'
+	454313925,		//'@NWS',								// National Weather Service
+	2544227706,		//'@NWStornado',				// National Weather Service: Tornados
+	586909317,		//'@NWSSPC',						// National Weather Service: Storm Prediction Center
+	19215993,			//'@Firewise',					// fire service
+	21249970,			//'@CAL_FIRE',					// California Fire
+	18736652			//'@NASAHurricane'
+];
 
 /**
  * Stream statuses filtered by keyword
  * number of tweets per second depends on topic popularity
  **/
-client.stream('statuses/filter', { track: keywords.join(',') },  function(stream) {
-	//client.stream('statuses/filter', {track: 'spaceapps,nasa,space,prince'},  function(stream){
+//client.stream('statuses/filter', {track: 'earthquake,flood,volcano,eruption,lava,storm,tornado,hail,landslide,tsunami,tidalwave,wildfire,firestorm,terremoto,diluvio,incendio'},  function(stream){
+client.stream('statuses/filter', { track: hashtags.join(','), follow: masterusers.join(',') },  function(stream) {
+//client.stream('statuses/filter', {track: 'spaceapps,nasa,space,spaceapps_sd'},  function(stream){
   	stream.on('data', function(tweet) {
 		if (tweet.retweeted == false)
 		{
-				if (tweet.place != null)
+				if (1) //if (tweet.user.location != null && tweet.user.geo_enabled == true)
 				{
-			  		console.log("*********************\n");
-					console.log("TWEET-GEO=", tweet.text, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
+			    console.log("*********************\n");
+					console.log("TWEET-GEO=", tweet.text, "\nUSER=", tweet.user.name, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
 
 					// client.get('users/lookup', {"screen_name": tweet.user.screen_name}, function(error, user, response){
 					//  if (!error) {
@@ -52,14 +77,17 @@ client.stream('statuses/filter', { track: keywords.join(',') },  function(stream
 					//  }
 					//  return;
 					// });
-  					var tweetString = JSON.stringify(tweet);
-					FS.appendFile("fulloutput.txt", "\n\n***********************\n\n", function(err){
-						// nothing to do
-					});
+  				if (debug = 1)
+  				{
+	  				var tweetString = JSON.stringify(tweet);
+						FS.appendFile("fulloutput.txt", "\n\n***********************\n\n", function(err){
+							// nothing to do
+						});
 
-					FS.appendFile("fulloutput.txt", tweetString, function(err){
-						// nothing to do
-					});
+						FS.appendFile("fulloutput.txt", tweetString, function(err){
+							// nothing to do
+						});
+					}
 				}
 				else
 				{
@@ -76,7 +104,7 @@ client.stream('statuses/filter', { track: keywords.join(',') },  function(stream
 	});
 
 	stream.on('error', function(error) {
-		console.log(error);
+		console.log("ERROR: ", error);
 	});
 });
 
