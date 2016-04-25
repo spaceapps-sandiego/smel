@@ -55,13 +55,14 @@ var schemaCheck = function(cb) {
 		CREATE TABLE IF NOT EXISTS natural_disaster (
 			id 				serial PRIMARY KEY,
 			source 			varchar(16),
-			source_id		integer,
-			time_created 	date not null,
-			time_updated	date,
+			source_id		varchar(32),
+			time_created 	timestamp not null,
+			time_updated	timestamp,
 			disaster_type	varchar(64),
 			location_name	varchar(128) not null,
 			location_coord	geometry,
-			description		text
+			description		text,
+			CONSTRAINT natural_disaster_u UNIQUE (source, source_id, location_name)
 		);`,
 		[ ],
 		function(error, result) {

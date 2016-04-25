@@ -33,7 +33,7 @@ class NaturalRelief extends Natural{
 		var url = "http://api.rwlabs.org/v1/disasters/?limit=100";
 		var source = "ReliefWeb";
 		
-		request(url, function(error, response, body){
+		request(url, (error, response, body) => {
 
 			var update_count = 0;
 
@@ -56,7 +56,7 @@ class NaturalRelief extends Natural{
 					for (var i = feature_details_data.length - 1; i >= 0; i--) {
 						var feature_fields = feature_details_data[i]["fields"];
 
-						var feature_date = feature_fields["description"];
+						var feature_description = feature_fields["description"];
 						var feature_type_name = feature_fields["primary_type"]["name"];
 						var feature_type_code = feature_fields["primary_type"]["code"];
 						var feature_location_name = feature_fields["primary_location"] && feature_fields["primary_location"]["name"];
@@ -67,20 +67,20 @@ class NaturalRelief extends Natural{
 						var feature_updated = feature_fields["date"]["updated"];
 
 						if(type_code_map[feature_type_code] !== undefined){
+							var date = feature_date;
+							var date_updated = (feature_updated !==  undefined) ? feature_updated: null;
 							var location = (feature_location_location !== undefined) ? feature_location_location : feature_location_country;
+							var [location_lat, location_lon] = location;
 							var location_name = (feature_location_name !== undefined) ? feature_location_name : feature_location_country_name;
-							var geojson = `{"type":"Point","coordinates":${location}}`;
+							var geojson = `{"type":"Point","coordinates":[${location_lat},${location_lon}]}`;
 							
-							this.insertOrUpdate(feature_id, source, feature_date, feature_updated, type_code_map[feature_type_code], location_name, feature_location, feature_title);
+							this.insertOrUpdate(feature_id, source, date, date_updated, type_code_map[feature_type_code], location_name, geojson, feature_description);
 
 							update_count += 1;
 						}
 					};
 
-					console.log(`Natural "${source}": processed ${update_count} values`);
 				});
-
-
 				
 			};
 		});
