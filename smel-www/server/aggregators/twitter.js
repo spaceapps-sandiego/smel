@@ -1,14 +1,8 @@
 
-var Twitter = require('twitter');
-var FS = require ('fs');
+import TwiterFilterInfo from './twitterFilterInfo';
 
-var debug = 0;
-if (debug == 1)
-{
-	FS.writeFile("fulloutput.txt", "START:\n", function(err) {
-	  // nothing to do
-	});
-}
+var debug = 1;
+var Twitter = require('twitter');
 
 var client = new Twitter({
 	consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -17,109 +11,86 @@ var client = new Twitter({
 	access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-// this list can be up to 25 hashtags to filter on
-var hashtags = [
-	'#earthquake',
-	'#avalanche',
-	'#flood',
-	'#volcano',
-	'#tornado',
-	'#sandstorm',
-	'#hurricane',
-	'#cyclone',
-	'#typhoon',
-	'#monsoon',
-	'#thunderstorm',
-	'#elnino',
-	'#landslide',
-	'#heatwave',
-	'#tsunami',
-	'#tidalwave',
-	'#wildfire',
-	'#firestorm',
-	'#terremoto',
-	'#diluvio',
-	'#incendio'
-];
-
-// this list can be up to 100 users to follow, and must be user ID(s), not handles. Easy to convert at tweeterid.com
-var masterusers = [
-	133225023, 		//'@VolcanoAlert',		
-	2170342764, 	//'@VolcanoWatching',
-	14505838, 		//'@USGS' => Earthquakes
-	90954365,			//'@earthquakejapan'
-	267061897,		//'@japanquakealert'
-	403539516,		//'@Disaster_Update'
-	108543358,		//'@InfoBMKG'						// Australian/South Asia Tsunami Warnings
-	454313925,		//'@NWS',								// National Weather Service
-	2544227706,		//'@NWStornado',				// National Weather Service: Tornados
-	586909317,		//'@NWSSPC',						// National Weather Service: Storm Prediction Center
-	19215993,			//'@Firewise',					// fire service
-	21249970,			//'@CAL_FIRE',					// California Fire
-	18736652			//'@NASAHurricane'
-];
 
 var initTwitter = function(conn) {
-    console.log("Initializing Twitter aggregator...");
+  console.log("Initializing Twitter aggregator...");
+
+	var tFilterInfo = new TwiterFilterInfo();
+	tFilterInfo.queryData(conn, function() {
+    //var tUsers = new twitterUsers(conn);
+    var hashtags = tFilterInfo.getStrArrayOfHashtags();
+    var hashterms = tFilterInfo.getStrArrayOfHashterms();
+    var powerUsers = tFilterInfo.getIntArrayOfPowerUsers();
+
+    console.log("-- Twitter hashtags: ", hashtags.join(','));
+    console.log("-- Twitter powerUsers: ", powerUsers.join(','));
 
     /**
      * Stream statuses filtered by keyword
      * number of tweets per second depends on topic popularity
      **/
     //client.stream('statuses/filter', {track: 'earthquake,flood,volcano,eruption,lava,storm,tornado,hail,landslide,tsunami,tidalwave,wildfire,firestorm,terremoto,diluvio,incendio'},  function(stream){
-    client.stream('statuses/filter', { track: hashtags.join(','), follow: masterusers.join(',') },  function(stream) {
+    client.stream('statuses/filter', { track: hashtags.join(','), follow: powerUsers.join(',') },  function(stream) {
         //client.stream('statuses/filter', {track: 'spaceapps,nasa,space,spaceapps_sd'},  function(stream){
   	    stream.on('data', function(tweet) {
-console.log("DATA!!!!");
-		    if (tweet.retweeted == false)
-		    {
-			    	if (1) //if (tweet.user.location != null && tweet.user.geo_enabled == true)
-				    {
-		    	    console.log("*********************\n");
-		    			console.log("TWEET-GEO=", tweet.text, "\nUSER=", tweet.user.name, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
+					if (debug == 1)
+					{
+	    	    console.log("TWEET:", tweet.user.screen_name, " *********************\n");
+	    			//console.log("TWEET-GEO=", tweet.text, "\nUSER=", tweet.user.name, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
+	    		}
 
-			    		// client.get('users/lookup', {"screen_name": tweet.user.screen_name}, function(error, user, response){
-				    	//  if (!error) {
-					    //      console.log("\nUSER INFO: \n", user, "\n");
-					    //  }
-					    //  return;
-				    	// });
-      				if (debug == 1)
-      				{
-    	  				var tweetString = JSON.stringify(tweet);
-    						FS.appendFile("fulloutput.txt", "\n\n***********************\n\n", function(err){
-    							// nothing to do
-    						});
+			    if (tweet.retweeted == false)
+			    {
+			    		var n;
+			    		var i;
+			    		var tweet_text = tweet.text;
+			    		var weight = tFilterInfo.getPowerUserWeight(tweet.user.id_str);
+			    		var date = (new Date(parseInt(tweet.timestamp_ms))).toISOString();
 
-    						FS.appendFile("fulloutput.txt", tweetString, function(err){
-	    						// nothing to do
-		    				});
+			    		for (i = 0; i < hashterms.length; i++) {
+			    			var matched_term = hashterms[i];
+				    		if (n = tweet_text.indexOf(matched_term) >= 0) {
+				    			var natural_disaster = tFilterInfo.getNaturalDisaster(matched_term);
+
+			    				if (debug == 1) {
+					    	    console.log("\nSQL INSERT: ", tweet.user.screen_name, tweet.user.id, weight, matched_term, natural_disaster, date, tweet_text, tweet.user.location, tweet.user.place);
+					    	  }
+
+				    			// insert into database
+				    			var query_text = 'INSERT INTO twitter_tweets(screen_name, user_id, weight, term_matched, nat_distr, time, text, location, place_id) values($1, $2, $3, $4, $5, $6, $7, $8, $9)';
+	        				conn.query(query_text, 
+	        					[tweet.user.screen_name, tweet.user.id, weight, matched_term, natural_disaster, date, tweet_text, tweet.user.location, tweet.user.place ],
+	        					function(err, result) {
+	        						if (err) {
+		    	 							console.error('error inserting tweet: ', err);
+	        						}
+	        						else {
+	        						}
+	        					}
+	        				);
+				    		}
 			    		}
-				    }
-    				else
-	    			{
-		    	  		// console.log("*********************\n");
-			    		//console.log("TWEET-no-GEO=", tweet.text, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
-				    }
-    		}
-	    	else
-		    {
-			    console.log("*********************\n");
-    			console.log("RETWEET: COUNT=", tweet.retweet_count, ", TEXT=", tweet.text, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
-    		}
-
+	    		}
+		    	else
+			    {
+	  	  		if (debug == 1) {
+					    console.log("*********************\n");
+	    				console.log("RETWEET: COUNT=", tweet.retweet_count, ", TEXT=", tweet.text, "\nLOCATION=", tweet.user.location, "\nGEO=", tweet.user.geo_enabled, "\nPLACE=", tweet.place, "\n");
+	    			}
+	    		}
 	    });
 
     	stream.on('error', function(error) {
-console.log("ERROR!!!!");
+				console.log("ERROR!!!! twitter stream issue");
 	    	console.log("ERROR: ", error);
     	});
 
-        stream.on('end', function(response) {
-            console.log('END!');
-            console.log(response);
-        });
+      stream.on('end', function(response) {
+        console.log('END!!!! twitter stream ended - needs restart!');
+        //console.log("END: ", response);
+      });
     });
+	});
 };
 
 //var params = {screen_name: 'earthquake'};
