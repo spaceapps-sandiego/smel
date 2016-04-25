@@ -5,24 +5,26 @@
  * API for Events
  */
 
+import EventType from '../shared/event_type';
+
 const events = [{
-    type: 'Earthquake',
+    type: EventType.Earthquake,
     location: 'San Diego, California, United States',
     date: (new Date()).toISOString()
 }, {
-    type: 'Tornado',
+    type: EventType.SevereStorm,
     location: 'Ellwood City, Pennsylvania, United States',
     date: (new Date()).toISOString()
 }, {
-    type: 'Earthquake',
+    type: EventType.Earthquake,
     location: 'Ambo, Huánuco, Peru',
     date: (new Date()).toISOString()
 }, {
-    type: 'Hurricane',
+    type: EventType.SevereStorm,
     location: 'Bolton, Bladen County, North Carolina, United States',
     date: (new Date()).toISOString()
 }, {
-    type: 'Alien Invasion',
+    type: EventType.Landslide,
     location: 'Benede Oranje, Northern Cape, South Africa',
     date: (new Date()).toISOString()
 }];

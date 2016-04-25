@@ -14,7 +14,7 @@ class Content extends Component {
                 <div className="row">
                     <div className="col-xs-12">
                         <Header />
-                        <EventList />
+                        <EventList col={3}/>
                     </div>
                 </div>
             </div>

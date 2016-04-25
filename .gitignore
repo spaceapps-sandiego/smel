@@ -26,6 +26,8 @@ dist
 
 # Dependency directory
 node_modules
+server/shared
+client/shared
 
 # Optional npm cache directory
 .npm

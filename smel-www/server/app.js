@@ -10,6 +10,7 @@ import path from 'path';
 import fs from 'fs';
 import api, {events, tweets} from './api';
 import serveFile from './middleware/serve_file';
+import dbMiddleware from './middleware/db';
 import {pgCheck, conn} from './db';
 import initTwitter from './aggregators/twitter';
 
@@ -31,6 +32,8 @@ app.get('/api/tweets', api.makeHandler(tweets.get));
 app.get('*', serveFile(INDEX_PATH));
 
 pgCheck(function() {
+    app.use(dbMiddleware(conn));
+
     app.listen(PORT, '0.0.0.0', (err) => {
         if (err) {
             console.error(err);

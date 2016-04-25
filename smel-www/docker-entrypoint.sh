@@ -4,9 +4,12 @@ set -e
 
 rm -rf /var/www/client/node_modules
 rm -rf /var/www/client/dist
+rm -rf /var/www/client/shared
+rm -rf /var/www/server/shared
 rm -rf /var/www/server/node_modules
 
 cp -R /tmp/server/node_modules /var/www/server/
+cp -R /tmp/shared /var/www/server/
 cp -R /tmp/client/node_modules /var/www/client/
 cp -R /tmp/client/dist /var/www/client/dist
 

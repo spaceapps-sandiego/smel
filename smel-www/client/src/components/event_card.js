@@ -5,6 +5,7 @@
 
 import React, {Component} from 'react';
 import MomentAgo from './moment_ago';
+import EventType from '../shared/event_type';
 
 class EventCard extends Component {
     render() {
@@ -14,7 +15,7 @@ class EventCard extends Component {
                 <div className="panel panel-default">
                     <div className="panel-body">
                         <div className="event-date text-muted"><MomentAgo date={date} interval={5*1000}/></div>
-                        <span className="event-heading">{type} at {location}</span>
+                        <span className="event-heading">{type.text} at {location}</span>
                     </div>
                 </div>
             </div>
@@ -23,7 +24,7 @@ class EventCard extends Component {
 }
 
 EventCard.propTypes = {
-    type: React.PropTypes.string,
+    type: React.PropTypes.instanceOf(EventType),
     location: React.PropTypes.string,
     date: React.PropTypes.string
 };

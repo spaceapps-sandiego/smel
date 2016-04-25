@@ -6,8 +6,10 @@
  */
 
 import React, {Component} from 'react';
+import _ from 'lodash';
 import EventCard from './event_card';
 import ajax from '../ajax';
+import EventType from '../shared/event_type';
 
 class EventList extends Component {
     constructor() {
@@ -22,28 +24,32 @@ class EventList extends Component {
 
     render() {
         const events = this.state.events.map(ev => {
-            const {type, location, date} = ev;
-            const key = [type, location, date].join(',');
-
+            const type = EventType.from(ev.type.key);
+            const {location, date} = ev;
+            const key = [type.key, location, date].join(',');
             return (
                 <EventCard
-                    type={ev.type}
-                    location={ev.location}
-                    date={ev.date}
+                    type={type}
+                    location={location}
+                    date={date}
                     key={key} />
             );
-        })
+        });
 
-        return (
-            <div className="row">
-                {events}
-            </div>
-        );
+        const rows = _(events)
+            .chunk(this.props.col)
+            .map((row, i) => (
+                <div className="row" key={'event-row-' + i}>
+                    {row}
+                </div>
+            )).value();
+
+        return <div>{rows}</div>;
     }
 }
 
 EventList.propTypes = {
-    events: React.PropTypes.arrayOf(React.PropTypes.shape(EventCard.propTypes))
+    col: React.PropTypes.number
 };
 
 export default EventList;

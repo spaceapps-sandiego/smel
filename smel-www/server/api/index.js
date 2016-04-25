@@ -22,6 +22,8 @@ function makeHandler(method) {
      */
     return function(request, response) {
         let promise = method(request, response);
+
+        // if result of the method was not a promise, wrap it in one
         if (!(promise instanceof Promise)) {
             promise = Promise.resolve(promise);
         }
