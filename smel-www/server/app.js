@@ -13,6 +13,9 @@ import serveFile from './middleware/serve_file';
 import dbMiddleware from './middleware/db';
 import {pgCheck, conn} from './db';
 import initTwitter from './aggregators/twitter';
+import NaturalUSGS from './aggregators/natural-usgs';
+import NaturalRelief from './aggregators/natural-relief';
+import NaturalEONET from './aggregators/natural-eonet';
 
 const BUNDLE_PATH = path.join(__dirname, '../client/dist/bundle.js');
 const INDEX_PATH = path.join(__dirname, '../client/index.html');
@@ -43,4 +46,7 @@ pgCheck(function() {
     });
 
     initTwitter(conn);
+    var nat_usgs = new NaturalUSGS(conn);
+    var nat_relief = new NaturalRelief(conn);
+    var nat_eonet = new NaturalEONET(conn);
 });

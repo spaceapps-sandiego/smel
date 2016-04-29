@@ -15,9 +15,11 @@ class NaturalUSGS extends Natural{
 	}
 
 	run(){
-		var url = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
+		var url = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
 		var source = "USGS";
 		request(url, (error, response, body) => {
+
+			var update_count = 0;
 
 			var response_usgs = JSON.parse(body);
 			var response_features = response_usgs["features"];
@@ -36,8 +38,12 @@ class NaturalUSGS extends Natural{
 				var feature_title = feature["properties"]["title"];
 				
 				// Check id against database and insert/update if necessary
-				this.insertOrUpdate(feature_id, source, feature_time, null, "earthquake", feature_place, feature_location, feature_title);
+				var date = (new Date(feature_time)).toISOString();
+				var date_updated = (feature_time_updated !==  undefined) ? (new Date(feature_time_updated)).toISOString(): null;
+				this.insertOrUpdate(feature_id, source, date, date_updated, "earthquake", feature_place, feature_location, feature_title);
+				update_count += 1;
 			};
+
 		});
 
 	}
