@@ -5,30 +5,6 @@
  * API for Events
  */
 
-import EventType from '../shared/event_type';
-
-const events = [{
-    type: EventType.Earthquake,
-    location: 'San Diego, California, United States',
-    date: (new Date()).toISOString()
-}, {
-    type: EventType.SevereStorm,
-    location: 'Ellwood City, Pennsylvania, United States',
-    date: (new Date()).toISOString()
-}, {
-    type: EventType.Earthquake,
-    location: 'Ambo, Huánuco, Peru',
-    date: (new Date()).toISOString()
-}, {
-    type: EventType.SevereStorm,
-    location: 'Bolton, Bladen County, North Carolina, United States',
-    date: (new Date()).toISOString()
-}, {
-    type: EventType.Landslide,
-    location: 'Benede Oranje, Northern Cape, South Africa',
-    date: (new Date()).toISOString()
-}];
-
 class Events {
     /**
      * This will get wrapped by the API generator
@@ -39,7 +15,8 @@ class Events {
      * @returns {Promise} the promise object that is resolved by the API wrapper
      */
     async get(req, res) {
-        // TODO: Do your DB queries here
+        const {db} = req;
+        const {rows: events} = await db.query('SELECT * FROM natural_disaster');
 
         // return a promise here
         return Promise.resolve(events);
